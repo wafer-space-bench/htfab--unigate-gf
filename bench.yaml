@@ -1,0 +1,26 @@
+source:
+  url: https://github.com/htfab/unigate-gf
+  original_url: null
+  kind: fork
+  why: GitHub fork of the upstream repository
+  licence: MIT
+  upstream_default_branch: main
+tapeouts:
+- org: google
+  run: gf180mcu-mpw0
+  slot: 7F0C
+  project: Universal gates
+  size: caravel-upw
+  kind: digital
+  commit: 33ffc1af6e
+  commit_source: designer commit from Efabless tapeout/logs/git.info
+  tag: google/gf180mcu-mpw0/7F0C
+  branch: tapeout/google/gf180mcu-mpw0/7F0C
+  page: https://wafer.space/google-gf180mcu-mpw0/
+generated: '2026-10-17T23:49:53Z'
+tooling: https://github.com/wafer-space/wafer.space-bench
+index: https://wafer-space-bench.github.io
+branches:
+- about
+- tapeout/google/gf180mcu-mpw0/7F0C
+- upstream/main
